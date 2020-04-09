@@ -10,9 +10,3 @@ HPC2[1441:2880,"Time"] <- format(HPC2[1441:2880,"Time"],"2007-02-02 %H:%M:%S")
 
 
 ##Plot2
-plot(HPC2$Time,as.numeric(as.character(HPC2$Global_active_power)),type="l",xlab="",ylab="Global Active Power (kilowatts)", main="GLobal ACtive Power vs Time") 
-
-##Creating png
-png("plot2.png", width=480, height=480)
-plot(HPC2$Time,as.numeric(as.character(HPC2$Global_active_power)),type="l",xlab="",ylab="Global Active Power (kilowatts)", main="GLobal ACtive Power vs Time") 
-dev.off()
