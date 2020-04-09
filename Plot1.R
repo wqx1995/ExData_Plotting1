@@ -12,4 +12,4 @@ HPC2<-as.numeric(as.character(HPC2$Global_active_power))
 hist(HPC2,col="red",main="Global Active Power",xlab="Global Active Power(kilowatts)")
 
 #creating png
-png("plot1.png")
+png("plot1.png", width=480, height=480)
